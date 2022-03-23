@@ -2,6 +2,20 @@
   padding: 0 2rem;
 }
 
+.signInBtn,
+.signOutBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+.signOutBtn {
+  background-color: red;
+}
+
+.signInBtn {
+  background-color: green;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
