@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { useSession, signIn, signOut } from 'next-auth/react';
+import People from './people';
 
 export default function Home() {
   const { data: session } = useSession();
@@ -30,6 +31,9 @@ export default function Home() {
             Sign Out
           </button>
         </main>
+        <section>
+          <People />
+        </section>
       </div>
     );
   }
